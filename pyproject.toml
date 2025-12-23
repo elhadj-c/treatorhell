@@ -1,0 +1,8 @@
+# Copy from the example or create your own
+# Make sure it includes:
+# - fastapi
+# - uvicorn
+# - openai
+# - python-dotenv
+# - python-multipart (if using HTML forms)
+# - pydantic
