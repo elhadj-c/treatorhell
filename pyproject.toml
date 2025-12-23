@@ -1,8 +1,18 @@
-# Copy from the example or create your own
-# Make sure it includes:
-# - fastapi
-# - uvicorn
-# - openai
-# - python-dotenv
-# - python-multipart (if using HTML forms)
-# - pydantic
+[project]
+name = "treatorhell"
+version = "0.1.0"
+description = "TreatOrHell FastAPI application"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn>=0.30.0",
+    "openai>=1.0.0",
+    "python-dotenv>=1.0.0",
+    "python-multipart>=0.0.9",
+    "pydantic>=2.0.0",
+    "werkzeug>=1.0.1",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
